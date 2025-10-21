@@ -1,1 +1,2 @@
 Line1: Practice makes one perfect
+Line2: The early bird catches the worm
