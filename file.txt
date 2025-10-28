@@ -7,3 +7,5 @@ This line is edited in Visual Studio Code.
 
 NEw changes
 New change
+
+Checking poll scm on jenkins
