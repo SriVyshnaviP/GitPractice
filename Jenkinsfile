@@ -7,6 +7,7 @@ pipeline{
         stage('shell'){
             steps{
                 echo 'Webhook triggered for pipeline'
+                echo 'yayyyyyyyyyyyyyyyy'
             }
         }
     }
