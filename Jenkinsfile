@@ -1,13 +1,15 @@
 pipeline {
     agent any
+
     triggers {
-        githubPush()
+        // Check Git repo for new commits every 2 minutes
+        pollSCM('H/2 * * * *')
     }
-    stages {
-        stage('Build') {
-            steps {
-                echo "Triggered by GitHub push"
-            }
-        }
-    }
+     stages{
+     stage('echo'){
+         steps{
+         echo 'success'
+     }
+}
+     }
 }
